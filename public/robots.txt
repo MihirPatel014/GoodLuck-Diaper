@@ -1,0 +1,15 @@
+# Good Luck Diaper - robots.txt
+User-agent: *
+Allow: /
+
+# Disallow admin/private paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /account
+Disallow: /login
+Disallow: /register
+
+# Sitemap location
+Sitemap: https://goodluckdiaper.com/sitemap.xml

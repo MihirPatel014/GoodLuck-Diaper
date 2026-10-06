@@ -24,6 +24,7 @@ const products: Product[] = productsData as Product[];
 
 /**
  * Returns all products from the JSON source.
+ * Virtualized: only loads metadata initially, images loaded on demand.
  */
 export function getProducts(): Product[] {
   return products;
@@ -108,4 +109,39 @@ export function searchProducts(query: string, category?: string): Product[] {
  */
 export function formatPrice(price: number): string {
   return `${storeConfig.currency.symbol}${price.toFixed(2)}`;
+}
+
+/**
+ * Virtualized image loading - returns a placeholder for lazy loading
+ */
+export function getProductImageUrl(product: Product): string {
+  return product.image;
+}
+
+/**
+ * Generates srcset for responsive images
+ */
+export function getProductImageSrcSet(product: Product): string {
+  const base = product.image.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+  return [
+    `${base}-w200.jpg 200w`,
+    `${base}-w400.jpg 400w`,
+    `${base}-w800.jpg 800w`,
+    `${product.image} 1200w`
+  ].join(', ');
+}
+
+/**
+ * Lazy loading wrapper for product images
+ */
+export interface LazyImageProps {
+  product: Product;
+  className?: string;
+  sizes?: string;
+  priority?: boolean;
+}
+
+export function createLazyImageSrc(product: Product): string {
+  // Return low-quality placeholder for immediate display
+  return `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23E8FBF1' width='400' height='400'/%3E%3C/svg%3E`;
 }

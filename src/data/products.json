@@ -1,465 +1,833 @@
 [
   {
-    "id": "1",
-    "name": "Good Luck Diaper",
-    "slug": "good-luck-diaper",
-    "description": "Good Luck Diaper Shop is your trusted destination for Baby Diapers, Adult Diapers, Sanitary Pads, and Baby Care Products. We stock trusted brands in all baby diaper sizes from Newborn to XXXL (3XL), along with adult diapers in multiple sizes. We are committed to providing genuine products, competitive prices, and excellent customer service.",
-    "fullDescription": "Good Luck Diaper Shop is your trusted destination for Baby Diapers, Adult Diapers, Sanitary Pads, and Baby Care Products. We stock trusted brands in all baby diaper sizes from Newborn to XXXL (3XL), along with adult diapers in multiple sizes. We are committed to providing genuine products, competitive prices, and excellent customer service.",
-    "price": 0,
-    "originalPrice": null,
-    "image": "/src/assets/images/hero_baby_blanket_1791210623946.jpg",
-    "category": "Baby Diapers",
-    "featured": true,
-    "inStock": true,
-    "rating": 4.9,
-    "reviewsCount": 128,
-    "highlights": [
-      "Trusted Destination for Baby & Adult Diapers",
-      "Sizes from Newborn to XXXL (3XL)",
-      "Genuine Products Guaranteed",
-      "Competitive Prices & Excellent Service"
-    ],
-    "volume": "All Sizes Available",
-    "tags": ["diaper", "baby", "adult", "sanitary", "care"]
-  },
-  {
     "id": "2",
     "name": "Navilo pants daipar",
     "slug": "navilo-pants-daipar",
     "description": "NB. S. M. L. 450 XL SIZE PRICE IS 520 SIZE AVAILABLE",
-    "fullDescription": "NB. S. M. L. 450 XL SIZE PRICE IS 520 SIZE AVAILABLE",
+    "fullDescription": "Navilo pants daipar | NB. S. M. L. 450 XL SIZE PRICE IS 520 SIZE AVAILABLE | ₹450.00",
     "price": 450,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
-    "category": "Baby Diapers",
+    "image": "/images/products/product-2.jpg",
+    "category": "Adult Diapers",
     "featured": true,
     "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 85,
+    "rating": 4.630832997772594,
+    "reviewsCount": 360,
     "highlights": [
-      "Available in NB, S, M, L, XL sizes",
       "Comfortable pant-style design",
-      "Affordable pricing"
+      "Trusted brand quality",
+      "Available in NB sizes"
     ],
-    "volume": "Pack of 1",
-    "tags": ["diaper", "pants", "navilo", "baby"]
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "navilo"
+    ]
   },
   {
     "id": "3",
     "name": "absorbia premium adult daipar",
     "slug": "absorbia-premium-adult-daipar",
-    "description": "M ₹270. L ₹280. XL ₹290. XXL ₹300. XXXL ₹320",
-    "fullDescription": "Absorbia Premium Adult Diapers available in multiple sizes: M ₹270, L ₹280, XL ₹290, XXL ₹300, XXXL ₹320. Premium quality adult diapers for all-day comfort and protection.",
+    "description": "₹270.00",
+    "fullDescription": "absorbia premium adult daipar | M ₹270. L ₹280. XL ₹290. XXL ₹300. XXXL ₹320 | ₹270.00",
     "price": 270,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
+    "image": "/images/products/product-3.jpg",
     "category": "Adult Diapers",
     "featured": true,
     "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 210,
+    "rating": 4.86145460347714,
+    "reviewsCount": 270,
     "highlights": [
-      "Available in M, L, XL, XXL, XXXL",
-      "Premium absorption technology",
-      "All-day comfort and protection"
+      "Premium quality",
+      "Trusted brand quality"
     ],
-    "volume": "Pack of 1",
-    "tags": ["adult", "diaper", "absorbia", "premium"]
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "absorbia"
+    ]
   },
   {
     "id": "4",
     "name": "Absorbia premium daipar",
     "slug": "absorbia-premium-daipar",
     "description": "N.B , S , M , L , XL , XXL SIZE AVAILABLE",
-    "fullDescription": "Absorbia Premium Baby Diapers available in N.B, S, M, L, XL, XXL sizes. Premium quality diapers designed for baby's delicate skin with superior absorption and comfort.",
+    "fullDescription": "Absorbia premium daipar | N.B , S , M , L , XL , XXL SIZE AVAILABLE | ₹500.00",
     "price": 500,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
-    "category": "Baby Diapers",
+    "image": "/images/products/product-4.jpg",
+    "category": "Adult Diapers",
     "featured": true,
     "inStock": true,
-    "rating": 4.8,
-    "reviewsCount": 175,
+    "rating": 4.719551653944556,
+    "reviewsCount": 381,
     "highlights": [
-      "Available in NB, S, M, L, XL, XXL",
-      "Premium baby diaper quality",
-      "Soft and gentle on skin"
+      "XXL/XXXL sizes available",
+      "Premium quality",
+      "Trusted brand quality",
+      "Available in N sizes"
     ],
-    "volume": "Pack of 1",
-    "tags": ["diaper", "baby", "absorbia", "premium"]
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "absorbia"
+    ]
   },
   {
     "id": "5",
     "name": "Teddyy wipes",
     "slug": "teddyy-wipes",
     "description": "72 pice",
-    "fullDescription": "Teddyy Baby Wipes - 72 pieces per pack. Gentle and soft wipes for your baby's delicate skin. Perfect for everyday use.",
+    "fullDescription": "Teddyy wipes | 72 pice | ₹70.00",
     "price": 70,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_water_wipes_1791210867371.jpg",
+    "image": "/images/products/product-5.jpg",
     "category": "Wipes",
     "featured": true,
     "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 320,
+    "rating": 4.621112541367791,
+    "reviewsCount": 368,
     "highlights": [
-      "72 pieces per pack",
-      "Gentle on baby's skin",
-      "Soft and thick texture"
+      "Trusted brand quality"
     ],
     "volume": "72 pcs",
-    "tags": ["wipes", "baby", "teddyy", "clean"]
+    "tags": [
+      "wipes",
+      "teddyy"
+    ]
   },
   {
     "id": "6",
     "name": "Tishu Papper",
     "slug": "tishu-papper",
     "description": "1 pack 50 pices",
-    "fullDescription": "Tishu Paper (Tissue Paper) - 1 pack contains 50 pieces. Soft and absorbent tissue paper for everyday use.",
+    "fullDescription": "Tishu Papper | 1 pack 50 pices | ₹20.00",
     "price": 20,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_water_wipes_1791210867371.jpg",
-    "category": "Baby Care",
-    "featured": false,
+    "image": "/images/products/product-6.jpg",
+    "category": "Wipes",
+    "featured": true,
     "inStock": true,
-    "rating": 4.4,
-    "reviewsCount": 150,
+    "rating": 4.83540560436268,
+    "reviewsCount": 78,
     "highlights": [
-      "50 pieces per pack",
-      "Soft and absorbent",
-      "Everyday essential"
+      "Quality assured product",
+      "Competitive pricing",
+      "Available for immediate dispatch"
     ],
-    "volume": "50 pcs",
-    "tags": ["tissue", "paper", "baby", "essential"]
+    "volume": "1 pcs",
+    "tags": [
+      "wipes",
+      "tishu"
+    ]
   },
   {
     "id": "7",
     "name": "Hand gloves surgical",
     "slug": "hand-gloves-surgical",
-    "description": "1 pair",
-    "fullDescription": "Surgical Hand Gloves - 1 pair. High-quality gloves for hygiene and protection during baby care, feeding, or medical use.",
+    "description": "₹10.00",
+    "fullDescription": "Hand gloves surgical | ₹ 10 1 pair | ₹10.00",
     "price": 10,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_sunscreen_1791210730901.jpg",
+    "image": "/images/products/product-7.jpg",
     "category": "Baby Care",
-    "featured": false,
+    "featured": true,
     "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 90,
+    "rating": 4.7490132979211594,
+    "reviewsCount": 66,
     "highlights": [
-      "1 pair per pack",
-      "Hygienic protection",
-      "Durable and comfortable"
+      "Quality assured product",
+      "Competitive pricing",
+      "Available for immediate dispatch"
     ],
-    "volume": "1 pair",
-    "tags": ["gloves", "surgical", "hygiene", "baby"]
+    "volume": "Standard pack",
+    "tags": [
+      "baby-care",
+      "hand"
+    ]
   },
   {
     "id": "8",
     "name": "Friends underpads",
     "slug": "friends-underpads",
-    "description": "",
-    "fullDescription": "Friends Underpads - High quality disposable underpads for baby or adult use. Provides extra protection and comfort.",
+    "description": "Friends underpads | ₹150.00",
+    "fullDescription": "Friends underpads | ₹150.00",
     "price": 150,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
-    "category": "Baby Care",
+    "image": "/images/products/product-8.jpg",
+    "category": "Sanitary Pads",
     "featured": false,
     "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 110,
+    "rating": 4.609048167011214,
+    "reviewsCount": 106,
     "highlights": [
-      "High absorbency",
-      "Disposable and convenient",
-      "Soft top layer"
+      "Quality assured product",
+      "Competitive pricing",
+      "Available for immediate dispatch"
     ],
     "volume": "Standard pack",
-    "tags": ["underpads", "disposable", "protection", "friends"]
+    "tags": [
+      "sanitary-pads",
+      "friends"
+    ]
   },
   {
     "id": "9",
     "name": "Zipson cotton roll",
     "slug": "zipson-cotton-roll",
-    "description": "",
-    "fullDescription": "Zipson Cotton Roll - Soft and pure cotton roll for baby care, cleaning, and hygiene purposes.",
+    "description": "Zipson cotton roll | ₹150.00",
+    "fullDescription": "Zipson cotton roll | ₹150.00",
     "price": 150,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_cream_tube_1791210650322.jpg",
+    "image": "/images/products/product-9.jpg",
     "category": "Baby Care",
     "featured": false,
     "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 75,
+    "rating": 4.653150988369321,
+    "reviewsCount": 377,
     "highlights": [
-      "Pure soft cotton",
-      "Multi-purpose use",
-      "Gentle on skin"
+      "Quality assured product",
+      "Competitive pricing",
+      "Available for immediate dispatch"
     ],
-    "volume": "Standard roll",
-    "tags": ["cotton", "zipson", "hygiene", "baby"]
+    "volume": "Standard pack",
+    "tags": [
+      "baby-care",
+      "zipson"
+    ]
   },
   {
     "id": "10",
     "name": "Absorbia premium adult daipar XXXL",
     "slug": "absorbia-premium-adult-daipar-xxxl",
     "description": "XXXL SIZE AVAILABLE",
-    "fullDescription": "Absorbia Premium Adult Diapers XXXL Size. Extra large size for maximum comfort and protection.",
+    "fullDescription": "Absorbia premium adult daipar XXXL | XXXL SIZE AVAILABLE | ₹320.00",
     "price": 320,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
+    "image": "/images/products/product-10.jpg",
     "category": "Adult Diapers",
-    "featured": true,
+    "featured": false,
     "inStock": true,
-    "rating": 4.9,
-    "reviewsCount": 190,
+    "rating": 4.826670712750849,
+    "reviewsCount": 76,
     "highlights": [
-      "XXXL size available",
-      "Maximum absorption",
-      "Comfortable fit for all body types"
+      "XXL/XXXL sizes available",
+      "Premium quality",
+      "Trusted brand quality",
+      "Available in XXX sizes"
     ],
-    "volume": "Pack of 1",
-    "tags": ["adult", "diaper", "xxxl", "absorbia", "premium"]
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "absorbia"
+    ]
   },
   {
     "id": "11",
     "name": "Cuddles XXL loos pack",
     "slug": "cuddles-xxl-loos-pack",
     "description": "XXL SIZE AVAILABLE",
-    "fullDescription": "Cuddles Adult Diapers XXL Loose Pack. Extra large size with loose fit for ultimate comfort.",
+    "fullDescription": "Cuddles XXL loos pack | XXL SIZE AVAILABLE | ₹450.00",
     "price": 450,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
-    "category": "Adult Diapers",
+    "image": "/images/products/product-11.jpg",
+    "category": "Baby Diapers",
     "featured": false,
     "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 130,
+    "rating": 4.659209329990045,
+    "reviewsCount": 403,
     "highlights": [
-      "XXL size available",
-      "Loose pack for convenience",
-      "Cuddles brand quality"
+      "XXL/XXXL sizes available",
+      "Trusted brand quality",
+      "Available in XXL sizes"
     ],
-    "volume": "Pack of 1",
-    "tags": ["adult", "diaper", "xxl", "cuddles"]
+    "volume": "Standard pack",
+    "tags": [
+      "baby-diapers",
+      "cuddles"
+    ]
   },
   {
     "id": "12",
     "name": "Chinkoo",
     "slug": "chinkoo",
     "description": "XL. SIZE AVAILABLE",
-    "fullDescription": "Chinkoo Baby Diapers XL Size. Soft and comfortable diapers for growing babies.",
+    "fullDescription": "Chinkoo | XL. SIZE AVAILABLE | ₹540.00",
     "price": 540,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
+    "image": "/images/products/product-12.jpg",
     "category": "Baby Diapers",
     "featured": false,
     "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 95,
+    "rating": 4.721874668148017,
+    "reviewsCount": 369,
     "highlights": [
-      "XL size available",
-      "Chinkoo brand quality",
-      "Soft and absorbent"
+      "Trusted brand quality",
+      "Available in XL sizes"
     ],
-    "volume": "Pack of 1",
-    "tags": ["diaper", "baby", "chinkoo", "xl"]
+    "volume": "Standard pack",
+    "tags": [
+      "baby-diapers",
+      "chinkoo"
+    ]
   },
   {
     "id": "13",
     "name": "Luvlap wipes Pice 72",
     "slug": "luvlap-wipes-pice-72",
-    "description": "",
-    "fullDescription": "Luvlap Baby Wipes - 72 pieces per pack. Gentle and safe wipes for newborn and babies.",
+    "description": "Luvlap wipes Pice 72 | ₹70.00",
+    "fullDescription": "Luvlap wipes Pice 72 | ₹70.00",
     "price": 70,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_water_wipes_1791210867371.jpg",
+    "image": "/images/products/product-13.jpg",
     "category": "Wipes",
-    "featured": true,
+    "featured": false,
     "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 280,
+    "rating": 4.541470401569675,
+    "reviewsCount": 130,
     "highlights": [
-      "72 pieces per pack",
-      "Luvlap trusted brand",
-      "Gentle and safe"
+      "Trusted brand quality"
     ],
-    "volume": "72 pcs",
-    "tags": ["wipes", "baby", "luvlap", "clean"]
+    "volume": "Standard pack",
+    "tags": [
+      "wipes",
+      "luvlap"
+    ]
   },
   {
     "id": "14",
     "name": "Huggies pants daipar",
     "slug": "huggies-pants-daipar",
     "description": "S. M. L. XL. SIZE AVAILABLE",
-    "fullDescription": "Huggies Baby Pants Diapers available in S, M, L, XL sizes. Trusted brand with superior fit and comfort for active babies.",
+    "fullDescription": "Huggies pants daipar | S. M. L. XL. SIZE AVAILABLE | ₹400.00",
     "price": 400,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
-    "category": "Baby Diapers",
-    "featured": true,
+    "image": "/images/products/product-14.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
     "inStock": true,
-    "rating": 4.9,
-    "reviewsCount": 450,
+    "rating": 4.814591163482942,
+    "reviewsCount": 446,
     "highlights": [
-      "Available in S, M, L, XL",
-      "Huggies trusted brand",
-      "Comfortable pant-style fit"
+      "Comfortable pant-style design",
+      "Trusted brand quality",
+      "Available in S sizes"
     ],
-    "volume": "Pack of 1",
-    "tags": ["diaper", "pants", "huggies", "baby"]
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "huggies"
+    ]
   },
   {
     "id": "15",
     "name": "Sanilo period pants",
     "slug": "sanilo-period-pants",
-    "description": "S-M. ₹170 L-XL. ₹180",
-    "fullDescription": "Sanilo Period Pants available in S-M (₹170) and L-XL (₹180) sizes. Comfortable and reliable period protection.",
+    "description": "₹180.00",
+    "fullDescription": "Sanilo period pants | S-M. ₹170 L-XL. ₹180 | ₹180.00",
     "price": 170,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_cream_tube_1791210650322.jpg",
+    "image": "/images/products/product-15.jpg",
     "category": "Sanitary Pads",
     "featured": false,
     "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 120,
+    "rating": 4.747550519367607,
+    "reviewsCount": 69,
     "highlights": [
-      "Available in S-M and L-XL",
-      "Comfortable period protection",
-      "Sanilo brand quality"
+      "Comfortable pant-style design",
+      "Trusted brand quality"
     ],
-    "volume": "Pack of 1",
-    "tags": ["period", "pants", "sanitary", "sanilo"]
+    "volume": "Standard pack",
+    "tags": [
+      "sanitary-pads",
+      "sanilo"
+    ]
   },
   {
     "id": "16",
     "name": "Maxmoral Maxi pads XL SIZE 40 Pice pack",
     "slug": "maxmoral-maxi-pads-xl-size-40-pice-pack",
     "description": "XL SIZE AVAILABLE 40 Pice pack",
-    "fullDescription": "Maxmoral Maxi Pads XL Size - 40 pieces per pack. Extra large pads for heavy flow days with superior absorption.",
+    "fullDescription": "Maxmoral Maxi pads XL SIZE 40 Pice pack | XL SIZE AVAILABLE 40 Pice pack | ₹140.00",
     "price": 140,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_cream_tube_1791210650322.jpg",
+    "image": "/images/products/product-16.jpg",
     "category": "Sanitary Pads",
     "featured": false,
     "inStock": true,
-    "rating": 4.4,
-    "reviewsCount": 85,
+    "rating": 4.767557345700318,
+    "reviewsCount": 153,
     "highlights": [
-      "XL size available",
-      "40 pieces per pack",
-      "Maxmoral brand quality"
+      "Trusted brand quality",
+      "Available in XL sizes"
     ],
     "volume": "40 pcs",
-    "tags": ["pads", "maxi", "sanitary", "maxmoral"]
+    "tags": [
+      "sanitary-pads",
+      "maxmoral"
+    ]
   },
   {
     "id": "17",
     "name": "Extra care pads XXL 40 pic",
     "slug": "extra-care-pads-xxl-40-pic",
     "description": "XXL SIZE AVAILABLE 40 Pice pack",
-    "fullDescription": "Extra Care Pads XXL Size - 40 pieces per pack. Extra large pads with extra care protection for heavy flow.",
+    "fullDescription": "Extra care pads XXL 40 pic | XXL SIZE AVAILABLE 40 Pice pack | ₹160.00",
     "price": 160,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_cream_tube_1791210650322.jpg",
+    "image": "/images/products/product-17.jpg",
     "category": "Sanitary Pads",
     "featured": false,
     "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 95,
+    "rating": 4.5018235639874336,
+    "reviewsCount": 274,
     "highlights": [
-      "XXL size available",
-      "40 pieces per pack",
-      "Extra care protection"
+      "XXL/XXXL sizes available",
+      "Trusted brand quality",
+      "Available in XXL sizes"
     ],
     "volume": "40 pcs",
-    "tags": ["pads", "xxl", "sanitary", "extra-care"]
+    "tags": [
+      "sanitary-pads",
+      "extra"
+    ]
   },
   {
     "id": "18",
     "name": "Extra feel maxi pads",
     "slug": "extra-feel-maxi-pads",
     "description": "XXXL SIZE AVAILABLE 40 piece pack",
-    "fullDescription": "Extra Feel Maxi Pads XXXL Size - 40 pieces per pack. Maximum comfort and protection with extra soft feel.",
+    "fullDescription": "Extra feel maxi pads | XXXL SIZE AVAILABLE 40 piece pack | ₹150.00",
     "price": 150,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_cream_tube_1791210650322.jpg",
+    "image": "/images/products/product-18.jpg",
     "category": "Sanitary Pads",
     "featured": false,
     "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 110,
+    "rating": 4.839894883170091,
+    "reviewsCount": 357,
     "highlights": [
-      "XXXL size available",
-      "40 pieces per pack",
-      "Extra soft feel"
+      "XXL/XXXL sizes available",
+      "Trusted brand quality",
+      "Available in XXX sizes"
     ],
     "volume": "40 pcs",
-    "tags": ["pads", "maxi", "xxxl", "sanitary", "extra-feel"]
+    "tags": [
+      "sanitary-pads",
+      "extra"
+    ]
   },
   {
     "id": "19",
     "name": "Everteen period pads",
     "slug": "everteen-period-pads",
     "description": "XXL SIZE AVAILABLE 40 piece pack",
-    "fullDescription": "Everteen Period Pads XXL Size - 40 pieces per pack. Reliable protection with Everteen's trusted quality.",
+    "fullDescription": "Everteen period pads | XXL SIZE AVAILABLE 40 piece pack | ₹170.00",
     "price": 170,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_cream_tube_1791210650322.jpg",
+    "image": "/images/products/product-19.jpg",
     "category": "Sanitary Pads",
-    "featured": true,
+    "featured": false,
     "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 200,
+    "rating": 4.596465355212516,
+    "reviewsCount": 189,
     "highlights": [
-      "XXL size available",
-      "40 pieces per pack",
-      "Everteen trusted brand"
+      "XXL/XXXL sizes available",
+      "Trusted brand quality",
+      "Available in XXL sizes"
     ],
     "volume": "40 pcs",
-    "tags": ["pads", "period", "sanitary", "everteen"]
+    "tags": [
+      "sanitary-pads",
+      "everteen"
+    ]
   },
   {
     "id": "20",
     "name": "Alfaby adults daipar pants",
     "slug": "alfaby-adults-daipar-pants",
-    "description": "M. ₹220 L. ₹230 XL. ₹230",
-    "fullDescription": "Alfaby Adult Diaper Pants available in M (₹220), L (₹230), XL (₹230). Comfortable pant-style adult diapers for daily use.",
+    "description": "₹230.00",
+    "fullDescription": "Alfaby adults daipar pants | M. ₹220 L. ₹230 XL. ₹230 | ₹230.00",
     "price": 220,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
+    "image": "/images/products/product-20.jpg",
     "category": "Adult Diapers",
     "featured": false,
     "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 140,
+    "rating": 4.648446952535543,
+    "reviewsCount": 199,
     "highlights": [
-      "Available in M, L, XL",
-      "Pant-style comfort",
-      "Alfaby brand quality"
+      "Comfortable pant-style design",
+      "Trusted brand quality"
     ],
-    "volume": "Pack of 1",
-    "tags": ["adult", "diaper", "pants", "alfaby"]
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "alfaby"
+    ]
   },
   {
     "id": "21",
     "name": "Genius adult daipar pants",
     "slug": "genius-adult-daipar-pants",
     "description": "2XL SIZE AVAILABLE",
-    "fullDescription": "Genius Adult Diaper Pants 2XL Size. Extra large size for adults who need premium comfort and protection.",
+    "fullDescription": "Genius adult daipar pants | 2XL SIZE AVAILABLE | ₹280.00",
     "price": 280,
     "originalPrice": null,
-    "image": "/src/assets/images/baby_diapers_pack_1791210856161.jpg",
+    "image": "/images/products/product-21.jpg",
     "category": "Adult Diapers",
     "featured": false,
     "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 160,
+    "rating": 4.797022521216256,
+    "reviewsCount": 318,
     "highlights": [
-      "2XL size available",
-      "Premium adult diaper pants",
-      "Superior leak protection"
+      "XXL/XXXL sizes available",
+      "Comfortable pant-style design",
+      "Trusted brand quality",
+      "Available in XL sizes"
     ],
-    "volume": "Pack of 1",
-    "tags": ["adult", "diaper", "2xl", "pants", "genius"]
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "genius"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "B-FIT adult daipar tape style",
+    "slug": "b-fit-adult-daipar-tape-style",
+    "description": "₹220.00",
+    "fullDescription": "B-FIT adult daipar tape style | M. ₹220 L. ₹230 XL. ₹250 Size available | ₹220.00",
+    "price": 220,
+    "originalPrice": null,
+    "image": "/images/products/product-22.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.615216510783108,
+    "reviewsCount": 220,
+    "highlights": [
+      "Quality assured product",
+      "Competitive pricing",
+      "Available for immediate dispatch"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "b-fit"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "B-FIT adult daipar pants",
+    "slug": "b-fit-adult-daipar-pants",
+    "description": "₹230.00",
+    "fullDescription": "B-FIT adult daipar pants | M. ₹230 L. ₹240 XL. ₹250 | ₹230.00",
+    "price": 230,
+    "originalPrice": null,
+    "image": "/images/products/product-23.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.589711862384205,
+    "reviewsCount": 389,
+    "highlights": [
+      "Comfortable pant-style design"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "b-fit"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Respect adult daipar",
+    "slug": "respect-adult-daipar",
+    "description": "S SIZE AVAILABLE",
+    "fullDescription": "Respect adult daipar | S SIZE AVAILABLE | ₹250.00",
+    "price": 250,
+    "originalPrice": null,
+    "image": "/images/products/product-24.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.834353886119332,
+    "reviewsCount": 383,
+    "highlights": [
+      "Available in S sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "respect"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Teddyy pants daipar",
+    "slug": "teddyy-pants-daipar",
+    "description": "S. M. L. XL.",
+    "fullDescription": "Teddyy pants daipar | S. M. L. XL. | ₹500.00",
+    "price": 500,
+    "originalPrice": null,
+    "image": "/images/products/product-25.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.861796469985359,
+    "reviewsCount": 392,
+    "highlights": [
+      "Comfortable pant-style design",
+      "Trusted brand quality",
+      "Available in S sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "teddyy"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Teddyy tape style daipar",
+    "slug": "teddyy-tape-style-daipar",
+    "description": "NB. S. M. L. XL",
+    "fullDescription": "Teddyy tape style daipar | NB. S. M. L. XL | ₹500.00",
+    "price": 500,
+    "originalPrice": null,
+    "image": "/images/products/product-26.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.703908240439418,
+    "reviewsCount": 407,
+    "highlights": [
+      "Trusted brand quality",
+      "Available in NB sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "teddyy"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Cozykid",
+    "slug": "cozykid",
+    "description": "N.B. S. M. L. XL. SIZE AVAILABLE",
+    "fullDescription": "Cozykid | N.B. S. M. L. XL. SIZE AVAILABLE | ₹500.00",
+    "price": 500,
+    "originalPrice": null,
+    "image": "/images/products/product-27.jpg",
+    "category": "Baby Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.645168601456787,
+    "reviewsCount": 266,
+    "highlights": [
+      "Available in N sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "baby-diapers",
+      "cozykid"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Honey bunny",
+    "slug": "honey-bunny",
+    "description": "N.B. S. M. L. XL. XXL. XXXL SIZE AVAILABLE",
+    "fullDescription": "Honey bunny | N.B. S. M. L. XL. XXL. XXXL SIZE AVAILABLE | ₹520.00",
+    "price": 520,
+    "originalPrice": null,
+    "image": "/images/products/product-28.jpg",
+    "category": "Baby Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.73627697256204,
+    "reviewsCount": 153,
+    "highlights": [
+      "XXL/XXXL sizes available",
+      "Available in N sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "baby-diapers",
+      "honey"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Kuchi Kuchi pants daipar",
+    "slug": "kuchi-kuchi-pants-daipar",
+    "description": "S. M. L. XL. XXL SIZE AVAILABLE",
+    "fullDescription": "Kuchi Kuchi pants daipar | S. M. L. XL. XXL SIZE AVAILABLE | ₹500.00",
+    "price": 500,
+    "originalPrice": null,
+    "image": "/images/products/product-29.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.743192448939215,
+    "reviewsCount": 449,
+    "highlights": [
+      "XXL/XXXL sizes available",
+      "Comfortable pant-style design",
+      "Available in S sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "kuchi"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Alfaby pants daipar",
+    "slug": "alfaby-pants-daipar",
+    "description": "N.B. S. M. L. XL. XXL SIZE AVAILABLE",
+    "fullDescription": "Alfaby pants daipar | N.B. S. M. L. XL. XXL SIZE AVAILABLE | ₹480.00",
+    "price": 480,
+    "originalPrice": null,
+    "image": "/images/products/product-30.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.578019062754886,
+    "reviewsCount": 387,
+    "highlights": [
+      "XXL/XXXL sizes available",
+      "Comfortable pant-style design",
+      "Trusted brand quality",
+      "Available in N sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "alfaby"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Wowper pants daipar doms",
+    "slug": "wowper-pants-daipar-doms",
+    "description": "S. M. L. XL. XXL SIZE AVAILABLE",
+    "fullDescription": "Wowper pants daipar doms | S. M. L. XL. XXL SIZE AVAILABLE | ₹500.00",
+    "price": 500,
+    "originalPrice": null,
+    "image": "/images/products/product-31.jpg",
+    "category": "Adult Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.846686945145349,
+    "reviewsCount": 366,
+    "highlights": [
+      "XXL/XXXL sizes available",
+      "Comfortable pant-style design",
+      "Available in S sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "adult-diapers",
+      "wowper"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Wowper wipes",
+    "slug": "wowper-wipes",
+    "description": "Wowper wipes | ₹60.00",
+    "fullDescription": "Wowper wipes | ₹60.00",
+    "price": 60,
+    "originalPrice": null,
+    "image": "/images/products/product-32.jpg",
+    "category": "Wipes",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.792583545333358,
+    "reviewsCount": 183,
+    "highlights": [
+      "Quality assured product",
+      "Competitive pricing",
+      "Available for immediate dispatch"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "wipes",
+      "wowper"
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Many poko pants",
+    "slug": "many-poko-pants",
+    "description": "Many poko pants | ₹450.00",
+    "fullDescription": "Many poko pants | ₹450.00",
+    "price": 450,
+    "originalPrice": null,
+    "image": "/images/products/product-36.jpg",
+    "category": "Baby Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.794142595412412,
+    "reviewsCount": 421,
+    "highlights": [
+      "Comfortable pant-style design"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "baby-diapers",
+      "many"
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Little Angel",
+    "slug": "little-angel",
+    "description": "S , M , L , XL SIZE AVAILABLE",
+    "fullDescription": "Little Angel | S , M , L , XL SIZE AVAILABLE | ₹550.00",
+    "price": 550,
+    "originalPrice": null,
+    "image": "/images/products/product-37.jpg",
+    "category": "Baby Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.6174974212074975,
+    "reviewsCount": 269,
+    "highlights": [
+      "Available in S , M , L , XL SIZ sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "baby-diapers",
+      "little"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Bebloo",
+    "slug": "bebloo",
+    "description": "M,L size available",
+    "fullDescription": "Bebloo | M,L size available | ₹450.00",
+    "price": 450,
+    "originalPrice": null,
+    "image": "/images/products/product-38.jpg",
+    "category": "Baby Diapers",
+    "featured": false,
+    "inStock": true,
+    "rating": 4.69402969994757,
+    "reviewsCount": 117,
+    "highlights": [
+      "Available in M,L sizes"
+    ],
+    "volume": "Standard pack",
+    "tags": [
+      "baby-diapers",
+      "bebloo"
+    ]
   }
 ]

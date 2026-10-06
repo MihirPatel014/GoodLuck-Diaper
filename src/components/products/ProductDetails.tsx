@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getProductBySlug, getProductsByCategory, Product } from '../../lib/products';
 import { ProductPrice } from './ProductPrice';
@@ -6,9 +6,9 @@ import { WhatsAppProductButton } from '../whatsapp/WhatsAppProductButton';
 import { WhatsAppButton } from '../whatsapp/WhatsAppButton';
 import { ProductCard } from './ProductCard';
 import { storeConfig } from '../../config/store';
+import { LazyProductImage } from '../ui/LazyProductImage';
 import {
   ShieldCheck,
-  Sparkles,
   Heart,
   Truck,
   MessageCircle,
@@ -22,7 +22,6 @@ import {
 export function ProductDetails() {
   const { slug } = useParams<{ slug: string }>();
   const product: Product | undefined = slug ? getProductBySlug(slug) : undefined;
-  const [imgError, setImgError] = useState(false);
 
   // Update SEO document title and scroll to top when slug changes
   useEffect(() => {
@@ -108,20 +107,12 @@ export function ProductDetails() {
             {/* Left Column: Product Imagery */}
             <div className="lg:col-span-6">
               <div className="relative aspect-square w-full bg-[#F4F9F6] rounded-2xl overflow-hidden border border-emerald-50 flex items-center justify-center p-8">
-                {!imgError ? (
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    referrerPolicy="no-referrer"
-                    onError={() => setImgError(true)}
-                    className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
-                  />
-                ) : (
-                  <div className="flex flex-col items-center justify-center text-emerald-700">
-                    <Sparkles className="w-16 h-16 opacity-50 mb-3" />
-                    <span className="font-semibold">{product.name}</span>
-                  </div>
-                )}
+                <LazyProductImage 
+                  product={product} 
+                  priority 
+                  alt={product.name}
+                  className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
+                />
 
                 {/* Badges on image */}
                 <div className="absolute top-4 left-4 flex flex-col gap-2">

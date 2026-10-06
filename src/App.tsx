@@ -12,6 +12,7 @@ import { ShopPage } from './pages/ShopPage';
 import { ProductDetails } from './components/products/ProductDetails';
 import { AboutPage } from './pages/AboutPage';
 import { FaqPage } from './pages/FaqPage';
+import { NotFound } from './pages/NotFound';
 import { FloatingWhatsApp } from './components/whatsapp/FloatingWhatsApp';
 
 /**
@@ -40,7 +41,7 @@ export default function App() {
             <Route path="/shop/:slug" element={<ProductDetails />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FaqPage />} />
-            <Route path="*" element={<HomePage />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
