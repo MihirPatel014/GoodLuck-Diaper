@@ -1,2 +1,2 @@
 # GoodLuck-Diaper
-user website of good luck daiper
+uzer website of good luck daiper
