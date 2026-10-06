@@ -1,0 +1,6 @@
+{
+  "name": "BabyHub – Organic & Gentle Baby Care Essentials",
+  "description": "Explore certified organic, non-toxic, and dermatologist-tested baby care products. Order directly on WhatsApp with pre-filled product details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
