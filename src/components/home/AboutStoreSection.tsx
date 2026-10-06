@@ -27,7 +27,7 @@ export function AboutStoreSection() {
           <div className="lg:col-span-4">
             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-sm border border-slate-100 bg-[#F4F9F6]">
               <img
-                src="/src/assets/images/about_baby_portrait_1791210823690.jpg"
+                src="/images/about/about_baby_portrait_1791210823690.jpg"
                 alt="Cheerful baby in ivory sweater"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
@@ -87,7 +87,7 @@ export function AboutStoreSection() {
           <div className="lg:col-span-4">
             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-sm border border-slate-100 bg-[#F4F9F6]">
               <img
-                src="/src/assets/images/about_baby_cozy_1791210677344.jpg"
+                src="/images/about/about_baby_cozy_1791210677344.jpg"
                 alt="Baby peacefully resting surrounded by warm fairy lights"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"

@@ -30,7 +30,7 @@ export function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-20">
           <div className="relative rounded-3xl overflow-hidden shadow-sm border border-slate-100 bg-[#E8FBF1]">
             <img
-              src="/src/assets/images/about_baby_portrait_1791210823690.jpg"
+              src="/images/about/about_baby_portrait_1791210823690.jpg"
               alt="Baby smiling happily"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"

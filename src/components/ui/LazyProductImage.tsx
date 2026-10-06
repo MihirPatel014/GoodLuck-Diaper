@@ -1,26 +1,38 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useImperativeHandle, forwardRef } from 'react';
 import { createLazyImageSrc, getProductImageUrl } from '../../lib/products';
 import { Product } from '../../lib/products';
 
 interface LazyImageProps {
   product: Product;
   className?: string;
+  imgClassName?: string;
   sizes?: string;
   priority?: boolean;
   alt?: string;
 }
 
-export function LazyProductImage({ 
-  product, 
-  className = '', 
+export interface LazyImageHandle {
+  getBoundingClientRect: () => DOMRect;
+  currentSrc: string;
+}
+
+export const LazyProductImage = forwardRef<LazyImageHandle, LazyImageProps>(({
+  product,
+  className = '',
+  imgClassName = 'object-cover',
   sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
   priority = false,
   alt
-}: LazyImageProps) {
+}, ref) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInView, setIsInView] = useState(priority);
   const [hasError, setHasError] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
+
+  useImperativeHandle(ref, () => ({
+    getBoundingClientRect: () => imgRef.current?.getBoundingClientRect() ?? new DOMRect(),
+    currentSrc: imgRef.current?.currentSrc ?? '',
+  }));
 
   useEffect(() => {
     if (priority) return;
@@ -48,7 +60,7 @@ export function LazyProductImage({
   const placeholderSrc = createLazyImageSrc(product);
 
   return (
-    <div className={`relative overflow-hidden ${className}`} ref={imgRef}>
+    <div className={`relative overflow-hidden ${className}`}>
       {!isLoaded && !hasError && (
         <div className="absolute inset-0 bg-[#E8FBF1] animate-pulse" aria-hidden="true" />
       )}
@@ -57,7 +69,7 @@ export function LazyProductImage({
         ref={imgRef}
         src={isInView ? imageSrc : placeholderSrc}
         alt={alt || product.name}
-        className={`transition-opacity duration-300 ${
+        className={`transition-opacity duration-300 w-full h-full ${imgClassName} ${
           isLoaded ? 'opacity-100' : 'opacity-0'
         } ${hasError ? 'hidden' : ''}`}
         sizes={sizes}
@@ -76,4 +88,6 @@ export function LazyProductImage({
       )}
     </div>
   );
-}
+});
+
+LazyProductImage.displayName = 'LazyProductImage';

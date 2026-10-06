@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getProductBySlug, getProductsByCategory, Product } from '../../lib/products';
 import { ProductPrice } from './ProductPrice';
@@ -7,6 +7,7 @@ import { WhatsAppButton } from '../whatsapp/WhatsAppButton';
 import { ProductCard } from './ProductCard';
 import { storeConfig } from '../../config/store';
 import { LazyProductImage } from '../ui/LazyProductImage';
+import { ImageModal } from '../ui/ImageModal';
 import {
   ShieldCheck,
   Heart,
@@ -22,6 +23,8 @@ import {
 export function ProductDetails() {
   const { slug } = useParams<{ slug: string }>();
   const product: Product | undefined = slug ? getProductBySlug(slug) : undefined;
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const imageRef = useRef<HTMLImageElement>(null);
 
   // Update SEO document title and scroll to top when slug changes
   useEffect(() => {
@@ -69,7 +72,8 @@ export function ProductDetails() {
       : null;
 
   return (
-    <div className="min-h-screen bg-[#FAFCFA] py-8 sm:py-12">
+    <>
+      <div className="min-h-screen bg-[#FAFCFA] py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
         <nav aria-label="Breadcrumb" className="mb-6">
@@ -95,7 +99,7 @@ export function ProductDetails() {
               </Link>
             </li>
             <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-            <li className="text-slate-900 font-semibold truncate max-w-[200px] sm:max-w-xs">
+            <li className="text-slate-900 font-semibold truncate max-w-50 sm:max-w-xs">
               {product.name}
             </li>
           </ol>
@@ -106,13 +110,21 @@ export function ProductDetails() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             {/* Left Column: Product Imagery */}
             <div className="lg:col-span-6">
-              <div className="relative aspect-square w-full bg-[#F4F9F6] rounded-2xl overflow-hidden border border-emerald-50 flex items-center justify-center p-8">
-                <LazyProductImage 
-                  product={product} 
-                  priority 
-                  alt={product.name}
-                  className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
-                />
+              <div className="relative aspect-[4/5] w-full bg-[#F4F9F6] rounded-2xl overflow-hidden border border-emerald-50 flex items-center justify-center p-8">
+                <button
+                  onClick={() => setIsModalOpen(true)}
+                  className="w-full h-full focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
+                  aria-label={`View ${product?.name} full size`}
+                >
+                  <LazyProductImage 
+                    product={product!} 
+                    priority 
+                    alt={product?.name}
+                    className="w-full h-full"
+                    imgClassName="object-contain transition-transform duration-500 hover:scale-105"
+                    ref={imageRef}
+                  />
+                </button>
 
                 {/* Badges on image */}
                 <div className="absolute top-4 left-4 flex flex-col gap-2">
@@ -290,5 +302,13 @@ export function ProductDetails() {
         )}
       </div>
     </div>
+
+      <ImageModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        product={product}
+        triggerRef={imageRef}
+      />
+    </>
   );
 }

@@ -10,13 +10,6 @@ interface FaqItem {
 }
 
 export function FaqPage() {
-  const [openIndex, setOpenIndex] = useState<string | null>(faqs[0]?.question || null);
-
-  useEffect(() => {
-    document.title = `FAQ & WhatsApp Ordering | ${storeConfig.name}`;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, []);
-
   const faqs: FaqItem[] = [
     {
       question: 'How do I place an order on Good Luck Diaper?',
@@ -49,6 +42,13 @@ export function FaqPage() {
         'Absolutely! You can click "Order on WhatsApp" on multiple items, or simply message us in the same chat saying: "I would also like to add the Baby Healing Balm and Pure Water Wipes". We will compile your complete order and calculate any bundle savings.',
     },
   ];
+
+  const [openIndex, setOpenIndex] = useState<string | null>(faqs[0]?.question || null);
+
+  useEffect(() => {
+    document.title = `FAQ & WhatsApp Ordering | ${storeConfig.name}`;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
 
   return (
     <div className="min-h-screen bg-[#FAFCFA] py-10 sm:py-16">

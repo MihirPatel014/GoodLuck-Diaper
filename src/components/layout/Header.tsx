@@ -30,12 +30,12 @@ export function Header({ onOpenSearch }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-[#fcfcf9]/95 backdrop-blur-md border-b border-[#e5e9e3] transition-colors transition-shadow">
+    <header className="sticky top-0 z-40 bg-[#fcfcf9]/95 backdrop-blur-md border-b border-[#e5e9e3] transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-[76px]">
+        <div className="flex items-center justify-between h-19">
           <Link to="/" className="group flex flex-col text-decoration-none">
             <span className="text-[10px] uppercase tracking-[.18em] text-slate-500">Family care &amp; essentials</span>
-            <span className="text-lg sm:text-xl font-bold tracking-[-.045em] text-slate-900 group-hover:text-[#176a52] transition-colors">{storeConfig.name}</span>
+            <span className="text-lg sm:text-xl font-bold tracking-[-.045em] text-slate-900 group-hover:text-brand-primary transition-colors">{storeConfig.name}</span>
           </Link>
 
           {/* Desktop Navigation Links */}
@@ -51,8 +51,8 @@ export function Header({ onOpenSearch }: HeaderProps) {
                   to={link.path}
                   className={`text-sm font-semibold transition-colors duration-150 ${
                     isActive
-                    ? 'text-[#176a52]'
-                      : 'text-slate-600 hover:text-[#176a52]'
+                    ? 'text-brand-primary'
+                      : 'text-slate-600 hover:text-brand-primary'
                   }`}
                 >
                   {link.label}
@@ -72,7 +72,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search products..."
-                className="w-44 lg:w-56 pl-9 pr-3 py-2 text-xs bg-white border border-slate-200 rounded-none focus:outline-none focus:ring-2 focus:ring-[#176a52] text-slate-800 placeholder-slate-400 transition-colors"
+                className="w-44 lg:w-56 pl-9 pr-3 py-2 text-xs bg-white border border-slate-200 rounded-none focus:outline-none focus:ring-2 focus:ring-brand-primary text-slate-800 placeholder-slate-400 transition-colors"
               />
               <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5 pointer-events-none" />
             </form>
@@ -96,7 +96,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
                 if (onOpenSearch) onOpenSearch();
                 else navigate('/shop');
               }}
-              className="p-2 text-slate-600 hover:text-[#176a52]"
+              className="p-2 text-slate-600 hover:text-brand-primary"
               aria-label="Search"
             >
               <Search className="w-5 h-5" />
@@ -136,7 +136,7 @@ export function Header({ onOpenSearch }: HeaderProps) {
                 key={link.path}
                 to={link.path}
                 onClick={() => setMobileMenuOpen(false)}
-                className="px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-[#00A86B] transition-colors"
+                className="px-3 py-2 rounded-lg text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-brand-primary transition-colors"
               >
                 {link.label}
               </Link>

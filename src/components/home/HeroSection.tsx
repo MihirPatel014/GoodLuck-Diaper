@@ -18,7 +18,7 @@ export function HeroSection() {
           <div className="hero-note"><span>01</span><p>Baby care, diapers &amp; daily essentials<br />Chosen with families in mind</p></div>
         </div>
         <div className="hero-image-wrap">
-          <img src="/src/assets/images/hero_baby_blanket_1791210623946.jpg" alt="A baby resting comfortably in a soft blue blanket" />
+          <img src="/images/hero/hero_baby_blanket_1791210623946.jpg" alt="A baby resting comfortably in a soft blue blanket" />
           <div className="hero-image-caption"><span>CARE, MADE A LITTLE SIMPLER</span><span>GOOD LUCK DIAPER&nbsp; / &nbsp;EST. FOR FAMILIES</span></div>
           <div className="hero-image-index">01 <span>—</span> 03</div>
         </div>

@@ -14,7 +14,7 @@ import { AboutPage } from './pages/AboutPage';
 import { FaqPage } from './pages/FaqPage';
 import { NotFound } from './pages/NotFound';
 import { FloatingWhatsApp } from './components/whatsapp/FloatingWhatsApp';
-
+import { Analytics } from "@vercel/analytics/next"
 /**
  * Ensures view scrolls to top upon page navigation.
  */
@@ -34,7 +34,7 @@ export default function App() {
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-[#FAFCFA] text-slate-800 selection:bg-[#D7F7E6] selection:text-emerald-900">
         <Header />
-        <main className="flex-grow">
+        <main className="grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/shop" element={<ShopPage />} />
